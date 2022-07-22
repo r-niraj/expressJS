@@ -13,6 +13,7 @@ import router from './routes/routes.js'
 app.set('view engine', 'ejs')
 
 //Static file
+// The process.cwd() method is an inbuilt application programming interface of the process module which is used to get the current working directory of the node.js process.
 app.use(express.static(join(process.cwd(), 'public')))
 
 //Loading URL
